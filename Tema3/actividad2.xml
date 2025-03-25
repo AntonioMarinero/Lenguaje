@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reinados>
+    <pais>
+        <nombre>Gran Bretaña</nombre>
+        <capital>Londres</capital>
+        <rey>Carlos III</rey>
+        <reina>Camila</reina>
+    </pais>
+    <pais>
+        <nombre>España</nombre>
+        <capital>Madrid</capital>
+        <rey>Felipe IV</rey>
+        <reina>Letizia</reina>
+    </pais>
+</reinados>

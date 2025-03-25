@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividades HTML y CSS</title>
+  <style>
+    /* Bloque 1 - Ejercicio 1 */
+    .bloque1-ej1 {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: #333;
+      text-align: center;
+    }
+
+    /* Bloque 1 - Ejercicio 2 */
+    .bloque1-ej2 {
+      border: 2px solid black;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    /* Bloque 2 - Ejercicio 3 */
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+
+    /* Bloque 2 - Ejercicio 4 */
+    h1 {
+      text-transform: uppercase;
+      text-align: center;
+    }
+    p:first-letter {
+      text-transform: uppercase;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    /* Bloque 3 - Ejercicio 1 */
+    a:link {
+      color: blue;
+    }
+    a:visited {
+      color: purple;
+    }
+    a:hover {
+      color: red;
+    }
+    a:active {
+      color: orange;
+    }
+
+    /* Bloque 5 - Ejercicio 1 */
+    .bordered {
+      border: 2px solid black;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    /* Bloque 6 - Ejercicio 1 */
+    .text-shadow {
+      text-shadow: 2px 2px 5px gray;
+      font-size: 1.5em;
+      color: darkblue;
+    }
+
+    /* Bloque 7 - Gradiente */
+    .gradient {
+      background: linear-gradient(to right, red, yellow);
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* Bloque 8 - Filtros */
+    .filtered {
+      filter: grayscale(1) brightness(1.2);
+      width: 200px;
+      height: auto;
+    }
+
+    /* Bloque 9 - Transformaciones */
+    .transform {
+      transform: translate(100px, 200px);
+    }
+
+    /* Bloque 10 - Transiciones */
+    .transition {
+      background-color: lightblue;
+      padding: 20px;
+      transition: background-color 0.5s ease;
+    }
+    .transition:hover {
+      background-color: darkblue;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Actividades HTML y CSS</h1>
+
+  <!-- Bloque 1 -->
+  <section class="bloque1">
+    <h2 class="bloque1-ej1">Ejercicio 1: Texto centrado</h2>
+    <div class="bloque1-ej2">Ejercicio 2: Borde y relleno</div>
+  </section>
+
+  <!-- Bloque 2 -->
+  <section class="bloque2">
+    <h1>Ejercicio 3 y 4: Texto en mayúsculas y subrayado</h1>
+    <p>Primera letra en <strong>mayúscula</strong>.</p>
+    <a href="#">Este es un enlace sin subrayado.</a>
+  </section>
+
+  <!-- Bloque 3 -->
+  <section class="bloque3">
+    <h2>Ejercicio 1: Cambios de color en enlaces</h2>
+    <a href="#">Enlace con estilos dinámicos</a>
+  </section>
+
+  <!-- Bloque 5 -->
+  <section class="bloque5">
+    <h2>Ejercicio 1: Bordes</h2>
+    <div class="bordered">Div 1 con borde</div>
+    <div class="bordered">Div 2 con borde</div>
+    <div class="bordered">Div 3 con borde</div>
+    <div class="bordered">Div 4 con borde</div>
+  </section>
+
+  <!-- Bloque 6 -->
+  <section class="bloque6">
+    <h2>Ejercicio 1: Sombra en texto</h2>
+    <p class="text-shadow">Texto con sombra</p>
+  </section>
+
+  <!-- Bloque 7 -->
+  <section class="bloque7">
+    <h2>Ejercicio: Gradiente</h2>
+    <div class="gradient">Fondo con gradiente</div>
+  </section>
+
+  <!-- Bloque 8 -->
+  <section class="bloque8">
+    <h2>Ejercicio: Filtros</h2>
+    <img class="filtered" src="https://via.placeholder.com/200" alt="Ejemplo de filtro">
+  </section>
+
+  <!-- Bloque 9 -->
+  <section class="bloque9">
+    <h2>Ejercicio: Transformaciones</h2>
+    <div class="transform">Transformación de posición</div>
+  </section>
+
+  <!-- Bloque 10 -->
+  <section class="bloque10">
+    <h2>Ejercicio: Transiciones</h2>
+    <div class="transition">Pasa el ratón sobre mí</div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.background {
+    background-color: gray;
+}
+.border-line {
+    border: 2px solid;
+    width: 200px;
+    padding: 40px 40px 40px 40px;
+}
+
+
+.black-box {
+    border: 15px solid gray;
+    width: 200px;
+    padding: 40px 40px 40px 40px;
+}

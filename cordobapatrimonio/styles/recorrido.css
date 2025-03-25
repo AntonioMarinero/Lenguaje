@@ -1,0 +1,256 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #222222;
+    padding: 0.1px;
+    margin: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+
+header{
+background-color: #222222;
+
+}
+
+h1{
+    text-align: center;
+    font-family: "Playfair Display";
+    color: #EEEEEE;
+    font-weight: bold;
+}
+
+.logo{
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#logo {
+    width: 300px;
+
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    box-shadow: 0px 10px 128px #EEEEEE;
+    border-radius: 50% ;
+
+
+}
+#logo:hover {
+    transform: scale(1.2);
+    opacity: 0.9;
+
+}
+nav{
+    background-color: #26A69A;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: #EEEEEE;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+
+}
+
+nav a{
+    color: #EEEEEE;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+}
+
+nav a:hover{
+    color: #AED581;
+    transform: scale(1.1);
+}
+
+main{
+    background-color: #333333;
+    padding-top: 10px ;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    margin: 0;
+    width: 100%;
+    font-size: 1em;
+    max-width: 100%;
+    box-sizing: border-box;
+
+
+}
+
+main img{
+    aspect-ratio: 16/9;
+}
+
+.videopre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border: 4px solid #222222;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+
+aside, #descarga {
+    background-color: #66BB6A;
+    width: 35vw;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 2px solid #EEEEEE;
+    box-shadow: 0 2px 4px ;
+    font-family: 'Georgia', serif;
+}
+
+aside:hover{
+
+    transition: transform 0.5s ease, opacity 0.5s ease-out;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+#foto_cordoba{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: black 0 0 4px;
+}
+aside h3 {
+    color: #EEEEEE;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, sans-serif;
+}
+
+aside a {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+aside a:hover {
+    color: #26A69A;
+    text-decoration: underline;
+}
+aside img:hover {
+    transition: transform 0.4s ease, opacity 0.5s ease;
+    transform: scale(1.2); }
+aside ul {
+    padding-left: 20px;
+    list-style-type: initial;
+}
+
+aside ul li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+aside img {
+    float: right;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    translate: 10px 20px;
+}
+
+.asides{
+    gap: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #444444;
+    overflow: hidden;
+}
+
+#interes{
+    grid-area: interes;
+}
+
+#eventos{
+    grid-area: eventos;
+}
+footer{
+    background-color: #222222;
+    color: #66BB6A;
+    padding: 20px;
+    border-top: 2px solid  #EEEEEE;
+    text-align: center;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+}
+@media (max-width:320px){
+    body{
+        max-width: 100%;
+
+
+    }
+    header{
+        font-size: 0.6em;
+    }
+    iframe{
+        width: 70vw;
+
+    }
+    .videopre,iframe{
+        width: 70vw;
+        height: auto;
+    }
+    #foto_cordoba{
+        align-self: center;
+        width: 50vw;
+        height: auto;
+    }
+    #logo{
+        width: 25vw;
+    }
+    .asides{
+        display: grid;
+        grid-template-areas:
+        "interes"
+        "eventos" ;
+        width: 90vw;
+    }
+
+
+}
+
+#descarga{
+    float: right;
+    width: 30%;
+}
+h2 {
+    color: #FFF;
+}
+h3 {
+    color: #FFF;
+}
+p{
+    color: #FFF;
+}

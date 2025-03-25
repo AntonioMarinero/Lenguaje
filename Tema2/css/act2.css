@@ -1,0 +1,43 @@
+.center {
+    text-align: center;
+}
+.enlace {
+    text-decoration: none; 
+}
+.mayus {
+    text-transform: uppercase;
+}
+.iniciales {
+    text-transform: capitalize;
+}
+
+.sangria {
+    padding: 20px 20px 0px 20px;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sans {
+    font-family: sans-serif;
+}
+
+.mono {
+    font-family: monospace;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 1.2em;
+}
+

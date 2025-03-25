@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividades HTML y CSS</title>
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    h1, h2 {
+      color: #333;
+      text-align: center;
+    }
+
+    /* Actividad - Bloque 1 */
+    .bloque1-ej1 {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: #333;
+      text-align: center;
+    }
+
+    .bloque1-ej2 {
+      border: 2px solid black;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    /* Actividad - Bloque 2 */
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      text-align: center;
+    }
+    p:first-letter {
+      text-transform: uppercase;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    /* Actividad - Bloque 3 */
+    a:link {
+      color: blue;
+    }
+    a:visited {
+      color: purple;
+    }
+    a:hover {
+      color: red;
+    }
+    a:active {
+      color: orange;
+    }
+
+    /* Actividad - Bloque 4 */
+    .cursiva {
+      font-style: italic;
+    }
+
+    /* Actividad - Bloque 5 */
+    .bordered {
+      border: 2px solid black;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    /* Actividad - Bloque 6 */
+    .text-shadow {
+      text-shadow: 2px 2px 5px gray;
+      font-size: 1.5em;
+      color: darkblue;
+    }
+
+    /* Actividad - Bloque 7 */
+    .gradient {
+      background: linear-gradient(to right, red, yellow);
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* Actividad - Bloque 8 */
+    .filtered {
+      filter: grayscale(1) brightness(1.2);
+      width: 200px;
+      height: auto;
+    }
+
+    /* Actividad - Bloque 9 */
+    .transform {
+      transform: translate(100px, 200px);
+    }
+
+    /* Actividad - Bloque 10 */
+    .transition {
+      background-color: lightblue;
+      padding: 20px;
+      transition: background-color 0.5s ease;
+    }
+    .transition:hover {
+      background-color: darkblue;
+      color: white;
+    }
+
+    /* Actividad - Bloque 11 */
+    .animation-example {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      animation: move 2s infinite;
+    }
+    @keyframes move {
+      0% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(100px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Bloque 1 -->
+  <section>
+    <h1>Bloque 1 - Actividades</h1>
+    <h2 class="bloque1-ej1">Ejercicio 1: Texto centrado y en mayúsculas</h2>
+    <div class="bloque1-ej2">Ejercicio 2: Elemento con borde y relleno</div>
+  </section>
+
+  <!-- Bloque 2 -->
+  <section>
+    <h2>Bloque 2 - Cambios de texto y enlaces</h2>
+    <p>Primera letra en <strong>mayúscula</strong>.</p>
+    <a href="#">Este es un enlace sin subrayado</a>
+  </section>
+
+  <!-- Bloque 3 -->
+  <section>
+    <h2>Bloque 3 - Estilos en enlaces</h2>
+    <a href="#">Enlace con estilos dinámicos: Link</a>
+  </section>
+
+  <!-- Bloque 4 -->
+  <section>
+    <h2>Bloque 4 - Texto en cursiva</h2>
+    <p class="cursiva">Este es un párrafo con cursiva aplicado.</p>
+  </section>
+
+  <!-- Bloque 5 -->
+  <section>
+    <h2>Bloque 5 - Bordes en elementos</h2>
+    <div class="bordered">Div 1 con borde</div>
+    <div class="bordered">Div 2 con borde</div>
+    <div class="bordered">Div 3 con borde</div>
+    <div class="bordered">Div 4 con borde</div>
+  </section>
+
+  <!-- Bloque 6 -->
+  <section>
+    <h2>Bloque 6 - Sombra de texto</h2>
+    <p class="text-shadow">Texto con sombra</p>
+  </section>
+
+  <!-- Bloque 7 -->
+  <section>
+    <h2>Bloque 7 - Gradiente de fondo</h2>
+    <div class="gradient">Fondo con gradiente</div>
+  </section>
+
+  <!-- Bloque 8 -->
+  <section>
+    <h2>Bloque 8 - Filtro en imagen</h2>
+    <img class="filtered" src="https://via.placeholder.com/200" alt="Imagen con filtro">
+  </section>
+
+  <!-- Bloque 9 -->
+  <section>
+    <h2>Bloque 9 - Transformación de posición</h2>
+    <div class="transform">Este es un ejemplo de transformación de posición.</div>
+  </section>
+
+  <!-- Bloque 10 -->
+  <section>
+    <h2>Bloque 10 - Transiciones</h2>
+    <div class="transition">Pasa el ratón sobre mí</div>
+  </section>
+
+  <!-- Bloque 11 -->
+  <section>
+    <h2>Bloque 11 - Animaciones</h2>
+    <div class="animation-example"></div>
+  </section>
+
+</body>
+</html>

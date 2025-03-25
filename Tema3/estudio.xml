@@ -1,0 +1,9 @@
+
+<personas>
+    <persona>
+        <telefono></telefono>
+        <nombre></nombre>
+        <edad></edad>
+        <pais></pais>
+    </persona>
+</personas>

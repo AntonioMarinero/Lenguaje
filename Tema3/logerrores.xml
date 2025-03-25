@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE logs [
+    <!ELEMENT logs (log*)>
+    <!ELEMENT log (descripcion, archivo)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT archivo (#PCDATA)>
+    <!ATTLIST log categoria (error | info | warning) #REQUIRED>
+    <!ATTLIST log fecha CDATA #IMPLIED>
+]>
+<logs>
+    <log categoria = "error" fecha = "24/02/25">
+        <descripcion>Error en el elemento ciudad</descripcion>
+        <archivo>ejemplo1-3.xml</archivo>
+    </log>
+    <log categoria = "warning">
+        <descripcion></descripcion>
+        <archivo></archivo>
+    </log>
+    <log categoria = "info">
+        <descripcion></descripcion>
+        <archivo></archivo>
+    </log>
+</logs>

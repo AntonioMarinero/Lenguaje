@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividades Completas HTML y CSS</title>
+  <style>
+    /* BLOQUE 1 */
+    .bloque1-ej1 {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: #333;
+      text-align: center;
+    }
+
+    .bloque1-ej2 {
+      border: 2px solid black;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    .bloque1-ej3 {
+      border: 5px solid black;
+      padding: 40px;
+      text-align: center;
+    }
+
+    /* BLOQUE 2 */
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      text-align: center;
+    }
+    p:first-letter {
+      text-transform: uppercase;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    p {
+      text-indent: 20px;
+    }
+
+    /* BLOQUE 3 */
+    a:link {
+      color: blue;
+    }
+    a:visited {
+      color: purple;
+    }
+    a:hover {
+      color: red;
+    }
+    a:active {
+      color: orange;
+    }
+
+    .hover-box {
+      background-color: lightgray;
+      padding: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .hover-box:hover {
+      background-color: gray;
+    }
+
+    /* BLOQUE 5 */
+    .bordered {
+      border: 2px solid black;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    .float-box {
+      float: left;
+      width: 30%;
+      margin: 10px;
+      padding: 10px;
+      border: 2px solid #333;
+    }
+
+    /* BLOQUE 6 */
+    .text-shadow {
+      text-shadow: 2px 2px 5px gray;
+      font-size: 1.5em;
+      color: darkblue;
+    }
+
+    /* BLOQUE 7 */
+    .gradient {
+      background: linear-gradient(to right, red, yellow);
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* BLOQUE 8 */
+    .filtered {
+      filter: grayscale(1) brightness(1.2);
+      width: 200px;
+      height: auto;
+    }
+
+    /* BLOQUE 9 */
+    .transform {
+      transform: translate(100px, 200px);
+    }
+
+    .rotate {
+      transform: rotate(45deg);
+      background-color: green;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    /* BLOQUE 10 */
+    .transition {
+      background-color: lightblue;
+      padding: 20px;
+      transition: background-color 0.5s ease;
+    }
+    .transition:hover {
+      background-color: darkblue;
+      color: white;
+    }
+
+    /* BLOQUE 11 */
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+    .animated {
+      animation: bounce 1s infinite;
+      background-color: orange;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Actividades Completas HTML y CSS</h1>
+
+  <!-- BLOQUE 1 -->
+  <section>
+    <h2>Bloque 1</h2>
+    <h3 class="bloque1-ej1">Ejercicio 1: Texto centrado</h3>
+    <div class="bloque1-ej2">Ejercicio 2: Borde y relleno</div>
+    <div class="bloque1-ej3">Ejercicio 3: Aumentar ancho del borde</div>
+  </section>
+
+  <!-- BLOQUE 2 -->
+  <section>
+    <h2>Bloque 2</h2>
+    <h1>Ejercicio 3 y 4: Texto en mayúsculas y subrayado</h1>
+    <p>Primera letra en <strong>mayúscula</strong>. Sangría aplicada.</p>
+    <a href="#">Este es un enlace sin subrayado.</a>
+  </section>
+
+  <!-- BLOQUE 3 -->
+  <section>
+    <h2>Bloque 3</h2>
+    <h3>Ejercicio 1: Cambios de color en enlaces</h3>
+    <a href="#">Enlace con estilos dinámicos</a>
+    <h3>Ejercicio 2: Cambio de fondo al pasar el ratón</h3>
+    <div class="hover-box">Pasa el ratón sobre mí</div>
+  </section>
+
+  <!-- BLOQUE 5 -->
+  <section>
+    <h2>Bloque 5</h2>
+    <div class="bordered">Div 1 con borde</div>
+    <div class="bordered">Div 2 con borde</div>
+    <div class="bordered">Div 3 con borde</div>
+    <div class="bordered">Div 4 con borde</div>
+    <div class="float-box">Caja flotante 1</div>
+    <div class="float-box">Caja flotante 2</div>
+    <div class="float-box">Caja flotante 3</div>
+  </section>
+
+  <!-- BLOQUE 6 -->
+  <section>
+    <h2>Bloque 6</h2>
+    <p class="text-shadow">Texto con sombra</p>
+  </section>
+
+  <!-- BLOQUE 7 -->
+  <section>
+    <h2>Bloque 7</h2>
+    <div class="gradient">Fondo con gradiente</div>
+  </section>
+
+  <!-- BLOQUE 8 -->
+  <section>
+    <h2>Bloque 8</h2>
+    <img class="filtered" src="/img/asd.jpeg" alt="Ejemplo de filtro">
+  </section>
+
+  <!-- BLOQUE 9 -->
+  <section>
+    <h2>Bloque 9</h2>
+    <div class="transform">Transformación de posición</div>
+    <div class="rotate">Rotación de 45º</div>
+  </section>
+
+  <!-- BLOQUE 10 -->
+  <section>
+    <h2>Bloque 10</h2>
+    <div class="transition">Pasa el ratón sobre mí</div>
+  </section>
+
+  <!-- BLOQUE 11 -->
+  <section>
+    <h2>Bloque 11</h2>
+    <div class="animated">Animación de rebote</div>
+  </section>
+</body>
+</html>

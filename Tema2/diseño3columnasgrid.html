@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-areas: 
+            "header header header"
+            "nav article aside"
+            "footer footer footer";
+            grid-template-rows: 50px 1fr 50px ;
+            grid-template-columns: 20% 1fr 20%;
+            grid-gap: 5px;
+            height: 100vh;
+            margin: 0;
+        }
+        header, footer, article, nav, div {
+            background: green;
+            padding: 10px;
+            text-align: center;
+        }
+        #header { grid-area: header;}
+        #nav { grid-area: nav;}
+        #article { grid-area: article;}
+        #aside { grid-area: aside;}
+        #footer { grid-area: footer;}
+    </style>
+</head>
+<body>
+    <header id="header">header</header>
+    <article id="article">article</article>
+    <nav id="nav">nav</nav>
+    <div id="aside">aside</div>
+    <footer id="footer">footer</footer>
+</body>
+</html>
